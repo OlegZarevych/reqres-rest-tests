@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.reqres.rest'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'io.rest-assured:rest-assured:4.1.1'
+    testImplementation 'io.rest-assured:json-path:4.1.1'
+    testImplementation 'io.rest-assured:xml-path:4.1.1'
+    testImplementation 'io.rest-assured:json-schema-validator:4.1.1'
+}
