@@ -2,7 +2,7 @@ package POJO;
 
 public class User {
 
-    public int Id;
+    public int id;
 
     public String email;
 
