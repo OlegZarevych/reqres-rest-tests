@@ -4,6 +4,6 @@ public final class CreateUserRequest {
 
     public String Name;
 
-    public  String Job;
+    public String Job;
 
 }
